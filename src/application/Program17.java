@@ -10,9 +10,8 @@ public class Program17 {
 	public static void main(String[] args) {
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-		
 		Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
-		
+
 		System.out.println(sdf.format(d));
 		
 		Calendar cal = Calendar.getInstance();
@@ -22,7 +21,6 @@ public class Program17 {
 		d = cal.getTime();
 		
 		System.out.println(sdf.format(d));
-		
 	}
 
 }
