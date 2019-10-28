@@ -18,7 +18,6 @@ public class Program17 {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
 		cal.add(Calendar.DAY_OF_MONTH, 4);
-		cal.add(Calendar.YEAR, 2);
 		d = cal.getTime();
 		
 		System.out.println(sdf.format(d));
